@@ -1,16 +1,10 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
-@import url("https://fonts.googleapis.com/css?family=Capriola");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:700");
 * {
-  font-family: 'Comfortaa', 'Spoqa Han Sans', 'Sans-serif' !important; }
+  font-family: 'Comfortaa', 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
-/*
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -1357,14 +1351,16 @@ button,
 
 /* Menu */
 #menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 2;
   text-align: right;
   height: 80px;
   width: 100%;
-  background-image: url("images/overlay.png"), url("../../images/header.jpg");
+  font-family: "Comfortaa";
+  font-size: 0.8em;
+  background-color: transparent;
   background-size: auto, cover;
   background-position: top left, center center;
   background-repeat: repeat, no-repeat; }
@@ -1375,18 +1371,19 @@ button,
 
 /* Header */
 #header {
-  margin: 80px 0 0 0;
+  margin: 0 0 0 0;
   position: relative;
   background-image: url("images/overlay.png"), url("../../images/header2.jpg");
   background-size: auto, cover;
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   padding: 11em 0 11em 0;
+  font-family: 'Spoqa Han Sans';
   text-align: center;
   color: #fff; }
   #header header h1 {
     font-family: 'Comfortaa';
-    font-size: 2.25em;
+    font-size: 3.5em;
     line-height: 1.25em;
     margin-bottom: 0; }
   #header header p {
@@ -1401,6 +1398,7 @@ button,
 
 /* Main Sections */
 .main {
+  font-family: 'Spoqa Han Sans';
   position: relative;
   margin: 0; }
   .main > header {
@@ -1417,9 +1415,19 @@ button,
       padding: 0;
       text-align: center; }
   .main > .content {
-    padding: 6em 0 6em 0; }
+    padding: 6em 0 6em 0;
+    color: #e0e0e0;
+    font-size: 0.9em; }
     .main > .content h3 {
-      font-size: 1.5em; }
+      font-size: 1.8em; }
+    .main > .content h4 {
+      font-family: "comfortaa";
+      font-size: 4em;
+      text-align: center; }
+    .main > .content blockquote {
+      font-size: 1em;
+      font-style: normal;
+      color: #f8f8f3; }
     .main > .content.dark {
       background: #433; }
     .main > .content.style1 {
