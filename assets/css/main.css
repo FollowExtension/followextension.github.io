@@ -1349,7 +1349,7 @@ button,
   .icon > .label {
     display: none; }
 
-#service li {
+#coinbine li {
   float: right; }
 
 /* Menu */
@@ -1417,6 +1417,11 @@ button,
       margin: 2em 0 0 0;
       padding: 0;
       text-align: center; }
+  .main #coinbine-icons {
+    margin: 3em 0 4em 0; }
+  .main #coinbine-icon {
+    color: #f0f0f0;
+    margin: 0 0.5em 0 0.5em; }
   .main > .content {
     padding: 6em 0 6em 0;
     color: #e0e0e0;

@@ -711,7 +711,7 @@
 		}
 	}
 
-	#service {
+	#coinbine {
 		li {
 			float: right;
 		}
@@ -803,6 +803,15 @@
 				padding: 0;
 				text-align: center;
 			}
+		}
+
+		#coinbine-icons {
+			margin: 3em 0 4em 0;
+		}
+
+		#coinbine-icon {
+			color: #f0f0f0;
+			margin: 0 0.5em 0 0.5em;
 		}
 
 		> .content {
