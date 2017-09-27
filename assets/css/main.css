@@ -1349,6 +1349,9 @@ button,
   .icon > .label {
     display: none; }
 
+#service li {
+  float: right; }
+
 /* Menu */
 #menu {
   position: absolute;
