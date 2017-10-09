@@ -1381,19 +1381,22 @@ button,
   background-color: transparent;
   background-size: auto, cover;
   background-position: top left, center center;
-  background-repeat: repeat, no-repeat; }
+  background-repeat: repeat, no-repeat;
+  color: #fff; }
   #menu ul {
     text-align: right; }
     #menu ul li {
       display: inline-block;
       margin-top: 0.5em; }
       #menu ul li a {
+        color: #ddd;
         background-color: transparent; }
 
 /* Header */
 #header {
   margin: 0 0 0 0;
   position: relative;
+  background-image: url("../../images/header2.jpeg");
   background-size: cover;
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
@@ -1407,13 +1410,13 @@ button,
     font-size: 3.75em;
     line-height: 1.25em;
     margin-bottom: 0;
-    color: #484848; }
+    color: #e4e4e4; }
   #header header p {
     margin-top: -0.5em;
     font-weight: 100;
     padding: 0;
     font-size: 1em;
-    color: #666;
+    color: #c0c0c0;
     line-height: 1.5em;
     text-align: center; }
   #header footer {
@@ -1566,8 +1569,10 @@ button,
     margin-left: 1.5em;
     margin-top: 0.2em;
     z-index: 3; }
-  #menu li {
-    margin-left: 1.5em; }
+  #menu {
+    padding-right: 1.5em; }
+    #menu li {
+      margin-left: 1.5em; }
   /* Basic */
   body, input, textarea, select {
     font-size: 11pt; }

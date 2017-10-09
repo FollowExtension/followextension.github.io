@@ -749,12 +749,14 @@
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
+		color: #fff;
 		ul {
 			text-align: right;
 			li {
 				display: inline-block;
 				margin-top: 0.5em;
 				a {
+					color: #ddd;
 					background-color: transparent;
 				}
 			}
@@ -766,7 +768,7 @@
 	#header {
 		margin: 0 0 0 0;
 		position: relative;
-		// background-image: url('../../images/test.png');
+		background-image: url('../../images/header2.jpeg');
 		background-size: cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -782,7 +784,7 @@
 				font-size: 3.75em;
 				line-height: 1.25em;
 				margin-bottom: 0;
-				color: #484848;
+				color: #e4e4e4;
 			}
 
 			p {
@@ -790,7 +792,7 @@
 				font-weight: 100;
 				padding: 0;
 				font-size: 1em;
-				color: #666;
+				color: #c0c0c0;
 				line-height: 1.5em;
 				text-align: center;
 			}
@@ -1064,10 +1066,10 @@
 		}
 
 		#menu {
+			padding-right: 1.5em; 
 			li {
 				margin-left: 1.5em; 
 			}
-			
 		}
 
 		/* Basic */
