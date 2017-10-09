@@ -783,12 +783,11 @@
 				font-family: 'Coolvetica';
 				font-size: 3.75em;
 				line-height: 1.25em;
-				margin-top: 0.75em;;
+				margin-top: 0.5em;
 				color: #e4e4e4;
 			}
 
 			p {
-				// margin-top: em;
 				font-weight: 100;
 				padding: 0;
 				font-size: 1em;
@@ -1058,10 +1057,10 @@
 	@include breakpoint(mobile) {
 
 		#logo {
-			width: 2.5em;
-			height: 2.5em;
+			width: 2em;
+			height: 2em;
 			margin-left: 1.5em;
-			margin-top: 0.2em;
+			margin-top: 0.5em;
 			z-index: 3;
 		}
 

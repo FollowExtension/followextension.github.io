@@ -1410,7 +1410,7 @@ button,
     font-family: 'Coolvetica';
     font-size: 3.75em;
     line-height: 1.25em;
-    margin-top: 0.75em;
+    margin-top: 0.5em;
     color: #e4e4e4; }
   #header header p {
     font-weight: 100;
@@ -1564,10 +1564,10 @@ button,
 /* Mobile */
 @media screen and (max-width: 736px) {
   #logo {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2em;
+    height: 2em;
     margin-left: 1.5em;
-    margin-top: 0.2em;
+    margin-top: 0.5em;
     z-index: 3; }
   #menu {
     padding-right: 1.5em; }
