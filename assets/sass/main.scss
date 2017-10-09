@@ -753,6 +753,7 @@
 			text-align: right;
 			li {
 				display: inline-block;
+				margin-top: 0.5em;
 				a {
 					background-color: transparent;
 				}
@@ -769,7 +770,7 @@
 		background-size: cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
-		background-color: #fff;
+		background-color: #FFF8EF;
 		padding: 12em 0 12em 0;
 		font-family: 'Spoqa Han Sans';
 		text-align: center;
@@ -1053,6 +1054,21 @@
 /* Mobile */
 
 	@include breakpoint(mobile) {
+
+		#logo {
+			width: 2.5em;
+			height: 2.5em;
+			margin-left: 1.5em;
+			margin-top: 0.2em;
+			z-index: 3;
+		}
+
+		#menu {
+			li {
+				margin-left: 1.5em; 
+			}
+			
+		}
 
 		/* Basic */
 

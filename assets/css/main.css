@@ -1385,7 +1385,8 @@ button,
   #menu ul {
     text-align: right; }
     #menu ul li {
-      display: inline-block; }
+      display: inline-block;
+      margin-top: 0.5em; }
       #menu ul li a {
         background-color: transparent; }
 
@@ -1396,7 +1397,7 @@ button,
   background-size: cover;
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
-  background-color: #fff;
+  background-color: #FFF8EF;
   padding: 12em 0 12em 0;
   font-family: 'Spoqa Han Sans';
   text-align: center;
@@ -1559,6 +1560,14 @@ button,
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+  #logo {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1.5em;
+    margin-top: 0.2em;
+    z-index: 3; }
+  #menu li {
+    margin-left: 1.5em; }
   /* Basic */
   body, input, textarea, select {
     font-size: 11pt; }
