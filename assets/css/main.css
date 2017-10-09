@@ -1451,7 +1451,8 @@ button,
     .main > .content h4 {
       font-family: "comfortaa";
       font-size: 4em;
-      text-align: center; }
+      text-align: center;
+      color: #6f6f6f; }
     .main > .content blockquote {
       font-size: 1em;
       font-style: normal;
