@@ -1353,13 +1353,14 @@ button,
   .icon > .label {
     display: none; }
 
-#coinbine li {
-  float: right; }
-
-#coinbine a {
-  color: #777777;
-  margin: 0 0.3em 0 0.3em;
-  box-shadow: inset 0 0 0 1px #999; }
+#coinbine {
+  box-shadow: inset 0 1px 0 0 #e6e6e6; }
+  #coinbine li {
+    float: right; }
+  #coinbine a {
+    color: #777777;
+    margin: 0 0.3em 0 0.3em;
+    box-shadow: inset 0 0 0 1px #999; }
 
 /* Menu */
 #logo {
@@ -1388,7 +1389,7 @@ button,
     text-align: right; }
     #menu ul li {
       display: inline-block;
-      margin-top: 0.5em; }
+      margin-top: 1em; }
       #menu ul li a {
         color: #ddd;
         background-color: transparent; }
@@ -1411,12 +1412,12 @@ button,
     font-size: 3.75em;
     line-height: 1.25em;
     margin-top: 0.5em;
-    color: #e4e4e4; }
+    color: #efefef; }
   #header header p {
     font-weight: 100;
     padding: 0;
     font-size: 1em;
-    color: #a0a0a0;
+    color: #b0b0b0;
     line-height: 1.5em;
     text-align: center; }
   #header footer {
@@ -1431,7 +1432,8 @@ button,
     background: #fff;
     text-align: center;
     padding: 5em 0 5em 0;
-    margin: 0; }
+    margin: 0;
+    box-shadow: inset 0 1px 0 0 #e6e6e6; }
     .main > header h2 {
       font-size: 2.25em;
       font-weight: 100;
@@ -1461,9 +1463,11 @@ button,
       background: #433; }
     .main > .content.style1 {
       background: #f8f8f8;
+      box-shadow: inset 0 1px 0 0 #e6e6e6;
       color: #666; }
     .main > .content.style2 {
       background: #f8f8f8;
+      box-shadow: inset 0 1px 0 0 #e6e6e6;
       color: #666; }
     .main > .content.style3 {
       background: #f8f8f8;
