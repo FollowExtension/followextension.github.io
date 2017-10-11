@@ -957,6 +957,9 @@ br.clear {
   text-align: center; }
   .featured p {
     text-align: center; }
+  .featured img {
+    display: inline-block;
+    margin: 0 20px 20px; }
 
 /* Sections/Article */
 section,
@@ -1385,14 +1388,22 @@ button,
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   color: #fff; }
-  #menu ul {
+  #menu > ul {
     text-align: right; }
-    #menu ul li {
+    #menu > ul > li {
       display: inline-block;
       margin-top: 1em; }
-      #menu ul li a {
+      #menu > ul > li > a {
         color: #ddd;
         background-color: transparent; }
+      #menu > ul > li .prettydropdown > ul {
+        background-color: transparent;
+        color: white; }
+
+#langSelect {
+  display: inline-block;
+  margin-right: 20px;
+  background-color: transparent; }
 
 /* Header */
 #header {
