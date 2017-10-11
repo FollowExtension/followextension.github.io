@@ -1279,7 +1279,7 @@ button,
   .dark input[type="reset"]:hover,
   .dark button:hover,
   .dark .button:hover {
-    background: rgba(0, 0, 0, 0.25); }
+    background: rgba(82, 168, 124, 0.75); }
   .dark input[type="button"].alt,
   .dark input[type="submit"].alt,
   .dark input[type="reset"].alt,
