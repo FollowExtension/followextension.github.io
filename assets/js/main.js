@@ -188,7 +188,7 @@ var resourceStrings = {
 		header: {
 			title: 'Follow Extension',
 			content: 'Decentralized Reward System Extension',
-			paper: 'Abstract Paper'
+			paper: '白書'
 		},
 
 		content: {
@@ -276,7 +276,7 @@ var resourceStrings = {
 		header: {
 			title: 'Follow Extension',
 			content: 'Decentralized Reward System Extension',
-			paper: 'Abstract Paper'
+			paper: '量子链白皮书'
 		},
 
 		content: {

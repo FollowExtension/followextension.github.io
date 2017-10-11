@@ -1273,7 +1273,8 @@ button,
 .dark .button {
   background: #52A87C;
   color: #0F0A26;
-  font-size: 0.75em; }
+  font-size: 0.75em;
+  min-width: 12em; }
   .dark input[type="button"]:hover,
   .dark input[type="submit"]:hover,
   .dark input[type="reset"]:hover,
