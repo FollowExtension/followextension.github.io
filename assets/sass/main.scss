@@ -803,7 +803,7 @@
 				font-family: 'Coolvetica';
 				font-size: 3.75em;
 				line-height: 1.25em;
-				margin-top: 0.5em;
+				padding-top: 60px;
 				color: #efefef;
 			}
 
@@ -1178,4 +1178,11 @@
 				}
 			}
 
+	}
+
+	@media (max-width: 820px) {
+		#langSelect {
+			display: block;
+			margin: 0;
+		}
 	}

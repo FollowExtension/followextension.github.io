@@ -107,7 +107,6 @@
   margin: auto; }
 
 .prettydropdown.arrow.small > ul > li.selected:before, .prettydropdown.arrow.small > ul > li.selected:after {
-  top: 4px;
   height: 8px;
   border-width: 4px; }
 
@@ -116,8 +115,6 @@
   /* Arrow color */ }
 
 .prettydropdown.arrow > ul > li.selected:after {
-  top: 4px;
-  /* Chevron thickness */
   border-top-color: #fff;
   /* Match background colour */ }
 
