@@ -1398,8 +1398,10 @@ button,
         color: #ddd;
         background-color: transparent; }
       #menu > ul > li .prettydropdown > ul {
-        background-color: transparent;
+        background-color: #0F0C25;
         color: white; }
+        #menu > ul > li .prettydropdown > ul > li {
+          background-color: #0F0C25; }
 
 #langSelect {
   display: inline-block;

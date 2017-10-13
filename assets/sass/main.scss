@@ -769,8 +769,11 @@
 				}
 				.prettydropdown {
 					& > ul {
-						background-color: transparent;
+						background-color: #0F0C25;
 						color: white;
+						& > li {
+							background-color: #0F0C25;
+						}
 					}
 				}
 			}
