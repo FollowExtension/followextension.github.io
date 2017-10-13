@@ -12,7 +12,8 @@ var resourceStrings = {
 		header: {
 			title: 'Follow Extension',
 			content: 'Decentralized Reward System Extension',
-			paper: '백서'
+			paper: '백서',
+			path: 'Follow_Extension_Abstract_Paper_Korean.pdf'
 		},
 
 		content: {
@@ -100,7 +101,8 @@ var resourceStrings = {
 		header: {
 			title: 'Follow Extension',
 			content: 'Decentralized Reward System Extension',
-			paper: 'White Paper'
+			paper: 'White Paper',
+			path: 'Follow_Extension_Abstract_Paper_English.pdf'
 		},
 
 		content: {
@@ -188,7 +190,8 @@ var resourceStrings = {
 		header: {
 			title: 'Follow Extension',
 			content: 'Decentralized Reward System Extension',
-			paper: '白書'
+			paper: '白書',
+			path: 'Follow_Extension_Abstract_Paper_Japanese.pdf'
 		},
 
 		content: {
@@ -276,7 +279,8 @@ var resourceStrings = {
 		header: {
 			title: 'Follow Extension',
 			content: 'Decentralized Reward System Extension',
-			paper: '量子链白皮书'
+			paper: '量子链白皮书',
+			path: 'Follow_Extension_Abstract_Paper_Chinese.pdf'
 		},
 
 		content: {
