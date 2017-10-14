@@ -1495,10 +1495,10 @@ button,
 
 #members .member {
   width: 200px;
-  margin: 30px 50px;
+  margin: 10px 50px;
   display: inline-block; }
   #members .member .member-pic {
-    width: 200px;
+    width: 100px;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 10px; }
@@ -1506,8 +1506,7 @@ button,
     font-size: 22px;
     font-weight: bold; }
   #members .member .member-title {
-    font-size: 16px;
-    font-weight: bold; }
+    font-size: 14px; }
   #members .member .member-task {
     font-size: 14px; }
 

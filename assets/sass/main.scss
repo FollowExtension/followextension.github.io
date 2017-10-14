@@ -913,10 +913,10 @@
 
 		.member {
 			width: 200px;
-			margin: 30px 50px;
+			margin: 10px 50px;
 			display: inline-block;
 			.member-pic {
-				width: 200px;
+				width: 100px;
 				border-radius: 50%;
 				display: inline-block;
 				margin-bottom: 10px;
@@ -926,8 +926,7 @@
 				font-weight: bold;
 			}
 			.member-title {
-				font-size: 16px;
-				font-weight: bold;
+				font-size: 14px;
 			}
 			.member-task {
 				font-size: 14px;

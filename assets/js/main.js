@@ -77,28 +77,28 @@ var resourceStrings = {
 			title: "팀원",
 			members: [
 				{
-					pic: 'images/profile-blank-female.png',
+					pic: 'images/sungwoo.jpg',
 					name: 'Sung Woo Chang',
-					title: 'Co-founder',
-					task: 'Mobile App/Token Developer'
+					title: 'Co-founder, Developer',
+					task: ''
 				},
 				{
-					pic: 'images/profile-blank-female.png',
+					pic: 'images/james.jpg',
 					name: 'James Chang',
-					title: 'Co-founder',
-					task: 'Web/Server Developer'
+					title: 'Co-founder, Developer',
+					task: ''
 				},
 				{
-					pic: 'images/profile-blank-female.png',
+					pic: 'images/kate.jpg',
 					name: 'Kate Kim',
-					title: 'Designer',
-					task: 'Product Design'
+					title: 'Product & UI Designer',
+					task: ''
 				},
 				{
-					pic: 'images/profile-blank-female.png',
-					name: 'Jiwon Yang',
-					title: 'Operator',
-					task: 'Operation & Supporter'
+					pic: 'images/jiwon.jpg',
+					name: 'Ji Won Yang',
+					title: 'Operation & Support',
+					task: ''
 				},
 			]
 		},
