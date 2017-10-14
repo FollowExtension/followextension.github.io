@@ -74,7 +74,7 @@ var resourceStrings = {
 		},
 
 		team: {
-			title: "팀원",
+			title: "Team",
 			members: [
 				{
 					pic: 'images/sungwoo.jpg',
@@ -192,6 +192,36 @@ var resourceStrings = {
 			}
 		},
 
+		team: {
+			title: "Team",
+			members: [
+				{
+					pic: 'images/sungwoo.jpg',
+					name: 'Sung Woo Chang',
+					title: 'Co-founder, Developer',
+					task: ''
+				},
+				{
+					pic: 'images/james.jpg',
+					name: 'James Chang',
+					title: 'Co-founder, Developer',
+					task: ''
+				},
+				{
+					pic: 'images/kate.jpg',
+					name: 'Kate Kim',
+					title: 'Product & UI Designer',
+					task: ''
+				},
+				{
+					pic: 'images/jiwon.jpg',
+					name: 'Ji Won Yang',
+					title: 'Operation & Support',
+					task: ''
+				},
+			]
+		},
+
 		poweredBy: 'Powered By',
 
 		community: {
@@ -281,6 +311,36 @@ var resourceStrings = {
 			}
 		},
 
+		team: {
+			title: "Team",
+			members: [
+				{
+					pic: 'images/sungwoo.jpg',
+					name: 'Sung Woo Chang',
+					title: 'Co-founder, Developer',
+					task: ''
+				},
+				{
+					pic: 'images/james.jpg',
+					name: 'James Chang',
+					title: 'Co-founder, Developer',
+					task: ''
+				},
+				{
+					pic: 'images/kate.jpg',
+					name: 'Kate Kim',
+					title: 'Product & UI Designer',
+					task: ''
+				},
+				{
+					pic: 'images/jiwon.jpg',
+					name: 'Ji Won Yang',
+					title: 'Operation & Support',
+					task: ''
+				},
+			]
+		},
+
 		poweredBy: 'Powered By',
 
 		community: {
@@ -368,6 +428,36 @@ var resourceStrings = {
 					'确保增长动力，为社区提供足够的动力，为项目开发作出贡献。'
 				]
 			}
+		},
+
+		team: {
+			title: "Team",
+			members: [
+				{
+					pic: 'images/sungwoo.jpg',
+					name: 'Sung Woo Chang',
+					title: 'Co-founder, Developer',
+					task: ''
+				},
+				{
+					pic: 'images/james.jpg',
+					name: 'James Chang',
+					title: 'Co-founder, Developer',
+					task: ''
+				},
+				{
+					pic: 'images/kate.jpg',
+					name: 'Kate Kim',
+					title: 'Product & UI Designer',
+					task: ''
+				},
+				{
+					pic: 'images/jiwon.jpg',
+					name: 'Ji Won Yang',
+					title: 'Operation & Support',
+					task: ''
+				},
+			]
 		},
 
 		poweredBy: 'Powered By',
