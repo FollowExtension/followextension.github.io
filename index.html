@@ -141,6 +141,24 @@
 				</div>
 			</section>
 
+			<section id="members" class="main">
+				<header>
+					<div id="team" class="container">
+						<h2>{{ team.title }}</h2>
+					</div>
+					<div>
+						{% for member in team.members %}
+						<div class="member">
+							<img class="member-pic" src="{{ member.pic }}" alt="" />
+							<div class="member-name">{{ member.name }}</div>
+							<div class="member-title">{{ member.title }}</div>
+							<div class="member-task">{{ member.task }}</div>
+						</div>
+						{% endfor %}
+					</div>
+				</header>
+			</section>
+
 			<section id="powered" class="main">
 				<header>
 					<div class="container">

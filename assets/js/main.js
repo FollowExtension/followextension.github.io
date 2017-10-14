@@ -73,6 +73,36 @@ var resourceStrings = {
 			}
 		},
 
+		team: {
+			title: "팀원",
+			members: [
+				{
+					pic: 'images/profile-blank-female.png',
+					name: 'Sung Woo Chang',
+					title: 'Co-founder',
+					task: 'Mobile App/Token Developer'
+				},
+				{
+					pic: 'images/profile-blank-female.png',
+					name: 'James Chang',
+					title: 'Co-founder',
+					task: 'Web/Server Developer'
+				},
+				{
+					pic: 'images/profile-blank-female.png',
+					name: 'Kate Kim',
+					title: 'Designer',
+					task: 'Product Design'
+				},
+				{
+					pic: 'images/profile-blank-female.png',
+					name: 'Jiwon Yang',
+					title: 'Operator',
+					task: 'Operation & Supporter'
+				},
+			]
+		},
+
 		poweredBy: 'Powered By',
 
 		community: {
