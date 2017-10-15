@@ -90,7 +90,7 @@ var resourceStrings = {
 				},
 				{
 					pic: 'images/kate.jpg',
-					name: 'Kate Kim',
+					name: 'Joohee Kim',
 					title: 'Product & UI Designer',
 					task: ''
 				},
@@ -209,7 +209,7 @@ var resourceStrings = {
 				},
 				{
 					pic: 'images/kate.jpg',
-					name: 'Kate Kim',
+					name: 'Joohee Kim',
 					title: 'Product & UI Designer',
 					task: ''
 				},
@@ -328,7 +328,7 @@ var resourceStrings = {
 				},
 				{
 					pic: 'images/kate.jpg',
-					name: 'Kate Kim',
+					name: 'Joohee Kim',
 					title: 'Product & UI Designer',
 					task: ''
 				},
@@ -447,7 +447,7 @@ var resourceStrings = {
 				},
 				{
 					pic: 'images/kate.jpg',
-					name: 'Kate Kim',
+					name: 'Joohee Kim',
 					title: 'Product & UI Designer',
 					task: ''
 				},
