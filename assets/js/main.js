@@ -74,7 +74,7 @@ var resourceStrings = {
 		},
 
 		team: {
-			title: "Team",
+			title: "Core Team",
 			members: [
 				{
 					pic: 'images/sungwoo.jpg',
@@ -193,7 +193,7 @@ var resourceStrings = {
 		},
 
 		team: {
-			title: "Team",
+			title: "Core Team",
 			members: [
 				{
 					pic: 'images/sungwoo.jpg',
@@ -312,7 +312,7 @@ var resourceStrings = {
 		},
 
 		team: {
-			title: "Team",
+			title: "Core Team",
 			members: [
 				{
 					pic: 'images/sungwoo.jpg',
@@ -431,7 +431,7 @@ var resourceStrings = {
 		},
 
 		team: {
-			title: "Team",
+			title: "Core Team",
 			members: [
 				{
 					pic: 'images/sungwoo.jpg',
