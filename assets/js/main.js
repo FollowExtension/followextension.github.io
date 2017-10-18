@@ -518,28 +518,25 @@ var resourceStrings = {
 		});
 
 		// Detect language
-		var language = window.navigator.userLanguage || window.navigator.language;
+		var lang = window.navigator.userLanguage || window.navigator.language;
 
 		// Set default language as English
-		if (!~Object.keys(resourceStrings).indexOf(language)) {
-			language = 'en';
+		if (!~Object.keys(resourceStrings).indexOf(lang)) {
+			lang = 'en';
 		}
 
 		var $template = $('#template'),
 				$container = $('#container');
-
-		$container.html(nunjucks.renderString($template.html(), resourceStrings[language]));
-
-		var $langSelect = $('#langSelect');
-		$langSelect.find('> [value="' + language + '"]').prop('selected', true);
-		$langSelect.prettyDropdown();
 
 		window.langChange = function(lang) {
 			$container.html(nunjucks.renderString($template.html(), resourceStrings[lang]));
 			var $langSelect = $('#langSelect');
 			$langSelect.find('> [value="' + lang + '"]').prop('selected', true);
 			$langSelect.prettyDropdown();
-		}
+			$('html').prop('lang', lang);
+		};
+
+		window.langChange(lang);
 	});
 
 })(jQuery);
