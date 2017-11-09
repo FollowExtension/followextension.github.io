@@ -105,6 +105,14 @@ var resourceStrings = {
 
 		poweredBy: 'Powered By',
 
+		token: {
+			header: {
+				title: 'Token Presale',
+				content: '0x354caa098bc5efc957880c49354164481e97f764',
+				deadline: "By November 30, 23:00 (KST)"
+			},
+		},
+
 		community: {
 			header: {
 				title: 'Follow Extension Community',
@@ -223,6 +231,14 @@ var resourceStrings = {
 		},
 
 		poweredBy: 'Powered By',
+
+		token: {
+			header: {
+				title: 'Token Presale',
+				content: '0x354caa098bc5efc957880c49354164481e97f764',
+				deadline: "By November 30, 23:00 (KST)"
+			},
+		},
 
 		community: {
 			header: {
